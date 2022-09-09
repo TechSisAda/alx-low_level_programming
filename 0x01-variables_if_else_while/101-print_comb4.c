@@ -13,7 +13,7 @@ for (b = 48; b <= 57; b++)
 {
 for (c = 48; c <= 57; c++)
 {
-if (a == b || a == c || b == c|| b <= a || c <= b)
+if (a == b || a == c || b == c || b <= a || c <= b)
 {
 }
 else
