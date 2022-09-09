@@ -1,48 +1,29 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
-*main - Entry point
+* main - Entry point
 *
-*Return: Always 0 (Success)
+* Return: Always 0
 */
 int main(void)
 {
-	int a = 48, b = 48, c = 48, d = 49;
-
-	while (a < 58)
-	{
-		while (b < 58)
-		{
-			while (c < 58)
-			{
-				while (d < 58)
-				{
-					putchar(a);
-					putchar(b);
-					putchar(' ');
-					putchar(c);
-					putchar(d);
-					if (!(a == 57 &&
-						b == 56 &&
-						c == 57 &&
-						d == 57))
-					{
-						putchar(',');
-						putchar(' ');
-					}
-					d++;
-				}
-				c++;
-				d = 48;
-			}
-			b++;
-			b = a;
-			d = b + 1;
-		}
-		a++;
-		b = 48;
-		c = a;
-		d = b+ 1;
-	}
-	putchar('\n');
-    return (0);
+int a, b;
+for (a = 0; a <= 98; a++)
+{
+for (b = a + 1; b <= 99; b++)
+{
+putchar((a / 10) + '0');
+putchar((a % 10) + '0');
+putchar(' ');
+putchar((b / 10) + '0');
+putchar((b % 10) + '0');
+if (a == 98 && b == 99)
+continue;
+putchar(',');
+putchar(' ');
+}
+}
+putchar('\n');
+return (0);
 }
