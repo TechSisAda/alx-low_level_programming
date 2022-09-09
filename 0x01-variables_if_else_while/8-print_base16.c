@@ -13,7 +13,7 @@ putchar(ate);
 }
 for (ate = 97; ate <= 102; ate++)
 {
-putchar(ate)
+putchar(ate);
 }
 putchar('\n');
 return (0);
