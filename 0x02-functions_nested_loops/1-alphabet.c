@@ -1,20 +1,12 @@
 #include "main.h"
-/*
-* func prints alphabet in lower case x10
+/**
+* print_alphabet: It prints the alphabet in lowercase followed next by a new line
 * Return 0
 */
-void print_alphabet_x10(void)
+void print_alphabet(void)
 {
-int s = 0;
-while (s < 10)
-{
-char t = 'a';
-while (t <= 'z')
-{
-_putchar(t);
-t++;
-}
+char low;
+for (low = 'a'; low <= 'z'; low++)
+_putchar(low);
 _putchar('\n');
-s++;
-}
 }
