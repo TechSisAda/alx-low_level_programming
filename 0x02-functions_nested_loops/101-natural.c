@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * 101-natural - print the mulptiples of 3,5
+ * main - print the mulptiples of 3,5
  * Description: function prints the sum of multiples of 3, 5
  * Return: always 0.
  */
