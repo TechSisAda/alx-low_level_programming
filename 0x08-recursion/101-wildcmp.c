@@ -1,11 +1,5 @@
 #include "main.h"
-/**
- * wildcmp - A function that compares two strings
- * @s1: First input string
- * @s2: Second input string
- * @str: string to be measured
- * Return: 1 if strings identical and 0 in otherwise.
- */
+
 int strlen_no_wilds(char *str);
 void iterate_wild(char **wildstr);
 char *postfix_match(char *str, char *postfix);
