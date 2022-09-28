@@ -3,6 +3,7 @@
  * wildcmp - A function that compares two strings
  * @s1: First input string
  * @s2: Second input string
+ * @str: string to be measured
  * Return: 1 if strings identical and 0 in otherwise.
  */
 int strlen_no_wilds(char *str);
@@ -64,14 +65,7 @@ return (postfix_match(str, postfix));
 }
 return (postfix);
 }
-/**
- * wildcmp - Compares two strings, considering wildcard characters.
- * @s1: The first string to be compared.
- * @s2: The second string to be compared - may contain wildcards.
- *
- * Return: If the strings can be considered identical - 1.
- *         Otherwise - 0.
- */
+
 int wildcmp(char *s1, char *s2)
 {
 if (*s2 == '*')
