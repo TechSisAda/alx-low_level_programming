@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
-* main - multiply 2 numbers as arguments
+* main - function multiply 2 numbers as arguments
 * @argc: number of arguments
 * @argv: arguments
 * Return: 0 success
